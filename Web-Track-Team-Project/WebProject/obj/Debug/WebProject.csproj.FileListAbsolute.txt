@@ -1,0 +1,5 @@
+C:\Me\SoftUni Nakov\000 Lectures\Homeworks\TeamWork\02.TheWebProject\Web-Track-Team-Project\WebProject\bin\WebProject.dll
+C:\Me\SoftUni Nakov\000 Lectures\Homeworks\TeamWork\02.TheWebProject\Web-Track-Team-Project\WebProject\bin\WebProject.pdb
+C:\Me\SoftUni Nakov\000 Lectures\Homeworks\TeamWork\02.TheWebProject\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.csprojResolveAssemblyReference.cache
+C:\Me\SoftUni Nakov\000 Lectures\Homeworks\TeamWork\02.TheWebProject\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.dll
+C:\Me\SoftUni Nakov\000 Lectures\Homeworks\TeamWork\02.TheWebProject\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.pdb
