@@ -1,31 +1,37 @@
 ﻿body, header, h1, nav, ul, a {
-    /* background-color: #234465; */
     margin: 0;
     padding: 0;
 }
 
 /*   ---> --------------------------------- header   */
 
+body {
+    background-color: #234465;
+}
 
-header {                   /* tova e zapazeno */
+.wrapper {
+    margin: 0 auto;
+}
+
+header { /* tova e zapazeno */
     background-color: #234465;
     width: 100%;
     /* height: 10%; 
     position: absolute; */
 }
 
-header, 
-header h1, 
-header nav, 
-header ul, 
-header a {
-    color: #ffffff;
-    list-style-type: none;
-    text-decoration: none;
-    font-family: Arial, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-}
+    header,
+    header h1,
+    header nav,
+    header ul,
+    header a {
+        color: #ffffff;
+        list-style-type: none;
+        text-decoration: none;
+        font-family: Arial, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
 
 header {
     display: block;
@@ -126,7 +132,7 @@ nav {
 }
 
     #nav-main ul li a {
-        padding: 3px 5px 3px 25px;
+        padding: 3px 5px 3px 12px;
     }
 
 /*   <--- ---------------------------------- header   */

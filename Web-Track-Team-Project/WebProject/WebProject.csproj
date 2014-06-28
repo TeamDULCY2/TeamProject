@@ -67,6 +67,7 @@
     <Content Include="images\triangle-icon.png" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
+    <Content Include="vacheva-profile.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
