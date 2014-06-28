@@ -13,3 +13,8 @@ C:\Users\Agop\Desktop\TeamProject\trunk\Web-Track-Team-Project\WebProject\bin\We
 C:\Users\Agop\Desktop\TeamProject\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.csprojResolveAssemblyReference.cache
 C:\Users\Agop\Desktop\TeamProject\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.dll
 C:\Users\Agop\Desktop\TeamProject\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.pdb
+C:\Users\Agop\Desktop\TeamProgectNew\trunk\Web-Track-Team-Project\WebProject\bin\WebProject.dll
+C:\Users\Agop\Desktop\TeamProgectNew\trunk\Web-Track-Team-Project\WebProject\bin\WebProject.pdb
+C:\Users\Agop\Desktop\TeamProgectNew\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.csprojResolveAssemblyReference.cache
+C:\Users\Agop\Desktop\TeamProgectNew\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.dll
+C:\Users\Agop\Desktop\TeamProgectNew\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.pdb
