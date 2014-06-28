@@ -61,6 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bell-icon.png" />
+    <Content Include="images\profile-aleks-pic.png" />
+    <Content Include="images\profile-dani-pic.png" />
+    <Content Include="images\profile-ivaylo-pic.png" />
+    <Content Include="images\profile-lybomir-pic.png" />
+    <Content Include="images\profile-mihail-pic.png" />
+    <Content Include="images\profile-teodora-pic.png" />
     <Content Include="images\search-icon.png" />
     <Content Include="images\softuni-logo-grey-hoover.png" />
     <Content Include="images\softuni-long-logo.png" />
