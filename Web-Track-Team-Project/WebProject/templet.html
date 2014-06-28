@@ -13,7 +13,7 @@
             <section class="container">
                 <h1>
                     <a href="templet.html">
-                        <img src="images/softuni-long-logo.png" alt="softuni-logo" />
+                        <img id="logo" src="images/softuni-long-logo.png" alt="softuni-logo" />
                     </a>
                 </h1>
                 <nav id="nav-profile">
@@ -31,8 +31,20 @@
                 <nav id="nav-main">
                     <ul>
                         <li><a href="https://softuni.bg/news" target="_blank">NEWS</a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">ABOUT THE UNIVERSITY<img src="images/triangle-icon.png" /></a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">TRAINING COURSES<img src="images/triangle-icon.png" /></a></li>
+                        <li class="triangle">
+							<select id="dropdown">
+								<option id="default" value="volvo">ABOUT THE UNIVERSITY</option>
+								<option class="option" value="op1">option 1</option>
+								<option class="option" value="op2">option 2</option>
+							</select>
+						</li>
+                        <li class="triangle">
+							<select id="dropdown">
+								<option id="default" value="volvo">TRAINING COURSES</option>
+								<option id="option" value="op1">option 1</option>
+								<option id="option" value="op2">option 2</option>
+							</select>
+						</li>
                         <li><a href="https://softuni.bg/companies" target="_blank">FOR COMPANIES</a></li>
                         <li><a href="https://softuni.bg/forum" target="_blank">FORUM</a></li>
                         <li><a href="https://softuni.bg/contacts" target="_blank">CONTACTS</a></li>
@@ -55,7 +67,7 @@
                     <td>Светлин Наков блог</td>
                 </tr>
                 <tr>
-                    <td rowspan="2"><button type="button">Fast track курсове </button></td>
+                    <td rowspan="2"><button class="tip" type="button">Fast track курсове </button></td>
                     <td>Професии</td>
                     <td>C# книга</td>
                     <td rowspan="2" class="different_column">&copy;2013-2014 - Software UniversityAll Right Reserved</td>
