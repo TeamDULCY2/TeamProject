@@ -60,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="factTrack.html" />
     <Content Include="images\bell-icon.png" />
     <Content Include="images\profile-aleks-pic.png" />
     <Content Include="images\profile-dani-pic.png" />
@@ -72,9 +73,13 @@
     <Content Include="images\softuni-long-logo.png" />
     <Content Include="images\triangle-icon.png" />
     <Content Include="styles\autors-style.css" />
+    <Content Include="styles\fastTrack_style.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
     <Content Include="autors.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="videos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
