@@ -71,9 +71,10 @@
     <Content Include="images\softuni-logo-grey-hoover.png" />
     <Content Include="images\softuni-long-logo.png" />
     <Content Include="images\triangle-icon.png" />
+    <Content Include="styles\autors-style.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
-    <Content Include="vacheva-profile.html" />
+    <Content Include="autors.html" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

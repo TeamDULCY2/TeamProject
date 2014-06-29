@@ -279,6 +279,7 @@ button.tip {
     }
 
 /*   <--- ---------------------------------- footer   */
+
 #mainContainer {
     margin-top: 10%;
     width: 100%;
@@ -287,6 +288,9 @@ button.tip {
     background-color: #EEEEEE;
 }
 
+#mainContainer article{
+    margin-top: 20px;
+}
 .upperleft {
     background-color: #EEEEEE;
     width: 60%;
