@@ -56,6 +56,7 @@ header {
         left: 25px;
         padding-left: 30px;
         padding-right: 30px;
+        z-index: 100;
     }
 
     header ul li {
@@ -118,7 +119,7 @@ header {
                 position: absolute;
                 top: 0;
                 right: -2px;
-                background: url(../images/search-icon.png) no- repeat 8px center;
+                background: url(../images/search-icon.png) no-repeat 8px center;
                 background-size: 17px 17px;
                 border-top: none;
                 border-right: none;
@@ -154,7 +155,7 @@ header {
                     display: none;
                 }
 
-                header nav #nav-main .dropdown option.option {
+                header nav#nav-main .dropdown option.option {
                     font-family: Arial, Tahoma, sans-serif;
                     font-style: italic;
                     font-size: 12px;
@@ -220,7 +221,8 @@ button:hover {
     background: #234465;
 }
 
-table ul li {
+footer table ul li {
+    display: inline-block;
     list-style: none outside none;
     padding: 0;
 }
