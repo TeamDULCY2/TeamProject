@@ -135,7 +135,7 @@ header {
                 padding: 3px 5px 3px 12px;
             }
 
-            header nav#nav-main #dropdown {
+            header nav#nav-main .dropdown {
                 background-color: #234465;
                 border: none;
                 color: #ffffff;
@@ -146,15 +146,15 @@ header {
                 font-size: 14px;
             }
 
-                header nav#nav-main #dropdown:hover {
+                header nav#nav-main .dropdown:hover {
                     opacity: 0.6;
                 }
 
-                header nav#nav-main #dropdown #default {
+                header nav#nav-main .dropdown #default {
                     display: none;
                 }
 
-                header nav#nav-main #dropdown #option * {
+                header nav #nav-main .dropdown option.option {
                     font-family: Arial, Tahoma, sans-serif;
                     font-style: italic;
                     font-size: 12px;
