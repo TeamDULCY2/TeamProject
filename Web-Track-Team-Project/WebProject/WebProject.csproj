@@ -71,9 +71,10 @@
     <Content Include="images\profile-mihail-pic.png" />
     <Content Include="images\profile-teodora-pic.png" />
     <Content Include="images\search-icon.png" />
-    <Content Include="images\softuni-logo-grey-hoover.png" />
     <Content Include="images\softuni-long-logo.png" />
     <Content Include="images\triangle-icon.png" />
+    <Content Include="media\audio\bells005.mp3" />
+    <Content Include="media\video\site-makers.wmv" />
     <Content Include="styles\autors-style.css" />
     <Content Include="styles\fastTrack_style.css" />
     <Content Include="styles\responsive-style.css" />
@@ -81,8 +82,9 @@
     <Content Include="templet.html" />
     <Content Include="autors.html" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="videos\" />
+    <Content Include="media\video\site-makers.webm" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
