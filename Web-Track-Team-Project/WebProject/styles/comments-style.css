@@ -1,0 +1,30 @@
+﻿
+
+#mainContainer div h1 {
+    display: inline-block;
+    background: rgba(255,156,0, 0.3);
+    color: rgba(255, 156, 0, 1);
+    text-transform: uppercase;
+    text-shadow: 2px 0px 4px #fff;
+    border: 3px solid rgba(255, 156, 0, 1);
+    border-radius: 7px;
+    padding: 5px 20px;
+}
+
+#mainContainer div article.center{
+    text-align: center;
+}
+
+#mainContainer nav {
+     list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+#mainContainer a {
+   color:#F3C506;
+}
+#mainContainer iframe {
+   border:none;
+}
