@@ -60,10 +60,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="comments_page.html" />
     <Content Include="fastTrack.html" />
-    <Content Include="html-responsive.html" />
+    <Content Include="images\badtime.jpg" />
     <Content Include="images\bell-icon.png" />
     <Content Include="images\bg-body.png" />
+    <Content Include="images\david.jpg" />
+    <Content Include="images\doge.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\googleplus.png" />
+    <Content Include="images\harduni-long-logo.png" />
+    <Content Include="images\kid.jpg" />
     <Content Include="images\profile-aleks-pic.png" />
     <Content Include="images\profile-dani-pic.png" />
     <Content Include="images\profile-ivaylo-pic.png" />
@@ -72,17 +79,24 @@
     <Content Include="images\profile-teodora-pic.png" />
     <Content Include="images\search-icon.png" />
     <Content Include="images\softuni-long-logo.png" />
+    <Content Include="images\toy.jpg" />
     <Content Include="images\triangle-icon.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\willywonka.jpg" />
     <Content Include="media\audio\bells005.mp3" />
-    <Content Include="media\video\site-makers.wmv" />
+    <Content Include="media\video\makeup.mp4" />
+    <Content Include="media\video\skills.mp4" />
     <Content Include="styles\autors-style.css" />
+    <Content Include="styles\comments-style.css" />
     <Content Include="styles\fastTrack-style.css" />
-    <Content Include="styles\responsive-style.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
     <Content Include="autors.html" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="media\video\makeup.webm" />
+    <Content Include="media\video\skills.webm" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="media\video\site-makers.webm" />
   </ItemGroup>

@@ -11,20 +11,22 @@
     padding: 5px 20px;
 }
 
-#mainContainer div article.center{
+#mainContainer div article.center {
     text-align: center;
 }
 
 #mainContainer nav {
-     list-style-type: none;
+    list-style-type: none;
     text-decoration: none;
     font-family: Arial, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
+
 #mainContainer a {
-   color:#F3C506;
+    color: #F3C506;
 }
+
 #mainContainer iframe {
-   border:none;
+    border: none;
 }
