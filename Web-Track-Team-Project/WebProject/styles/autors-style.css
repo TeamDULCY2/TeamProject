@@ -11,6 +11,10 @@
     padding: 5px 20px;
 }
 
+#mainContainer div article.center{
+    text-align: center;
+}
+
 #mainContainer div article figure {
     display: inline-block;
     color: rgba(255, 156, 0, 0.9);
