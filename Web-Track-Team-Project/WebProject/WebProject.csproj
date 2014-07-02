@@ -63,6 +63,7 @@
     <Content Include="comments_page.html" />
     <Content Include="contacts.html" />
     <Content Include="fastTrack.html" />
+    <Content Include="firstpage.html" />
     <Content Include="images\badtime.jpg" />
     <Content Include="images\bell-icon.png" />
     <Content Include="images\bg-body.png" />
@@ -92,6 +93,7 @@
     <Content Include="styles\comments-style.css" />
     <Content Include="styles\contacts-style.css" />
     <Content Include="styles\fastTrack-style.css" />
+    <Content Include="styles\firstpage.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
     <Content Include="autors.html" />

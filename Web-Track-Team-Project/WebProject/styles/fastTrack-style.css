@@ -8,7 +8,14 @@
     border-radius: 7px;
     padding: 5px 20px;
 }
-
+section#mainContainer div article {
+            display: inline-block;
+            background-color: #234465;
+            border-radius: 2.5em;
+            box-shadow: 5px 5px 15px 2px grey;
+            padding: 2em 3em;
+            color: #fff;
+        }
 
 
 #mainContainer div article.center {
