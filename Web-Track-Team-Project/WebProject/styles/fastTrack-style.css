@@ -9,9 +9,14 @@
     padding: 5px 20px;
 }
 
+
+
 #mainContainer div article.center {
+    width:450px;
     text-align: center;
+    margin:0 auto;
 }
+
 
 #mainContainer nav {
     list-style-type: none;
