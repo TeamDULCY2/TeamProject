@@ -61,10 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="comments_page.html" />
+    <Content Include="contacts.html" />
     <Content Include="fastTrack.html" />
     <Content Include="images\badtime.jpg" />
     <Content Include="images\bell-icon.png" />
     <Content Include="images\bg-body.png" />
+    <Content Include="images\contact-map.jpg" />
     <Content Include="images\david.jpg" />
     <Content Include="images\doge.jpg" />
     <Content Include="images\facebook.png" />
@@ -88,6 +90,7 @@
     <Content Include="media\video\skills.mp4" />
     <Content Include="styles\autors-style.css" />
     <Content Include="styles\comments-style.css" />
+    <Content Include="styles\contacts-style.css" />
     <Content Include="styles\fastTrack-style.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />

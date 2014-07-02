@@ -28,3 +28,8 @@ C:\Users\Agop\Desktop\team\trunk\Web-Track-Team-Project\WebProject\bin\WebProjec
 C:\Users\Agop\Desktop\team\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.csprojResolveAssemblyReference.cache
 C:\Users\Agop\Desktop\team\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.dll
 C:\Users\Agop\Desktop\team\trunk\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.pdb
+C:\Me\tortGit-WebTrack-Project 2\Web-Track-Team-Project\WebProject\bin\WebProject.dll
+C:\Me\tortGit-WebTrack-Project 2\Web-Track-Team-Project\WebProject\bin\WebProject.pdb
+C:\Me\tortGit-WebTrack-Project 2\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.csprojResolveAssemblyReference.cache
+C:\Me\tortGit-WebTrack-Project 2\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.dll
+C:\Me\tortGit-WebTrack-Project 2\Web-Track-Team-Project\WebProject\obj\Debug\WebProject.pdb
