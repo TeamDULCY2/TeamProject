@@ -93,7 +93,7 @@
     <Content Include="styles\comments-style.css" />
     <Content Include="styles\contacts-style.css" />
     <Content Include="styles\fastTrack-style.css" />
-    <Content Include="styles\firstpage.css" />
+    <Content Include="styles\firstpage-style.css" />
     <Content Include="styles\templet.css" />
     <Content Include="templet.html" />
     <Content Include="autors.html" />
@@ -104,6 +104,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="media\video\site-makers.webm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,35 +4,35 @@
     <title>HardUni-Home</title>
     <meta charset="utf-8" />
     <link href="styles/templet.css" rel="stylesheet" />
-    <link href="styles/firstpage.css" rel="stylesheet" />
+    <link href="styles/firstpage-style.css" rel="stylesheet" />
 </head>
 <body>
     <div class="wrapper">
         <header>
             <section class="container">
                 <h1>
-                    <a href="templet.html">
+                    <a href="firstpage.html">
                         <img id="logo" src="images/harduni-long-logo.png" alt="softuni-logo" />
                     </a>
                 </h1>
                 <nav id="nav-profile">
                     <ul>
-                        <li><span>0</span><a href="#" onclick="document.getElementById('click').play();"><img class="bell" src="images/bell-icon.png" alt="bell-icon" /><span><audio id="click" src="media/audio/bells005.mp3" preload="auto"></audio></span></a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">USER<img src="images/triangle-icon.png" /></a></li>
+                        <li><a href="#" onclick="document.getElementById('click').play();"><img class="bell" src="images/bell-icon.png" alt="bell-icon" /><span><audio id="click" src="media/audio/bells005.mp3" preload="auto"></audio></span></a></li>
+                        <li><a href="https://softuni.bg/account/authenticate" target="_blank">USER</a></li>
                         <li>
                             <form>
-                                <input type="text" placeholder="Search..." name="fieldset" class="fieldset" />
-                                <input type="button" name="search-button" class="button" />
+                                <input type="text" placeholder="Don't search..." name="fieldset" class="fieldset" />
+                                <input type="submit" value="" name="search-button" class="button" />
                             </form>
                         </li>
                     </ul>
                 </nav>
                 <nav id="nav-main">
                     <ul>
+                        <li><a href="firstpage.html">ЗА НАС</a></li>
                         <li><a href="templet.html">НОВИНИ</a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">ЗА УНИВЕРСИТЕТА<img src="images/triangle-icon.png" /></a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">КУРСОВЕ<img src="images/triangle-icon.png" /></a></li>
-                        <li><a href="comments_page.html" target="_blank">ОТЗИВИ</a></li>
+                        <li><a href="fastTrack.html">FAST TRACK</a></li>
+                        <li><a href="comments_page.html">ОТЗИВИ</a></li>
                         <li><a href="autors.html">АВТОРИ</a></li>
                         <li><a href="contacts.html">КОНТАКТИ</a></li>
                     </ul>
@@ -41,110 +41,104 @@
         </header>
         <section id="mainContainer">
             <div class="wrapper">
-                <h1>Достъпно и качествено софтуерно образование</h1>
+                <h1>софтуерно образование</h1>
                 <article class="center">
-                    <p>Нашата мисия е да направим хората, които обучаваме, истински професионалисти в софтуерната индустрия и да им съдействаме в намирането на решения.</p>
-                    <div id="video_div">
-                        <svg width="400" height="400">
-                            <line x1="200" y1="25" x2="200" y2="40" />
-                            <circle cx="200" cy="25" r="2" />
+                    <div class="floating-wrapper">
+                        <section class="float-left">
+                            <h1>Достъпно</h1>
+                            <h1>качествено</h1>
+                            <h1>забавно</h1>
+                        </section>
+                        <section class="float-left">
+                            <div class="video_div">
+                                <h1>
+                                    <svg width="400" height="340">
+                                        <line x1="200" y1="25" x2="200" y2="40" />
+                                        <circle cx="200" cy="25" r="2" />
 
-                            <line x1="20" y1="40" x2="380" y2="40">
-                                <animate attributeType="XML" attributeName="x2" from="20" to="380" dur="2s" />
-                            </line>
-                            <circle cx="380" cy="40" r="2" />
-                            <circle cx="20" cy="40" r="2" />
+                                        <line x1="20" y1="40" x2="380" y2="40">
+                                            <animate attributeType="XML" attributeName="x2" from="20" to="380" dur="2s" />
+                                        </line>
+                                        <circle cx="380" cy="40" r="2" />
+                                        <circle cx="20" cy="40" r="2" />
 
-                            <line x1="40" y1="40" x2="40" y2="280">
-                                <animate attributeType="XML" attributeName="y2" from="40" to="280" dur="2s" />
-                            </line>
-                            <line x1="360" y1="40" x2="360" y2="280">
-                                <animate attributeType="XML" attributeName="y1" from="280" to="40" dur="2s" />
-                            </line>
-                            <circle cx="380" cy="290" r="2" />
-                            <circle cx="20" cy="290" r="2" />
+                                        <line x1="40" y1="40" x2="40" y2="280">
+                                            <animate attributeType="XML" attributeName="y2" from="40" to="280" dur="2s" />
+                                        </line>
+                                        <line x1="360" y1="40" x2="360" y2="280">
+                                            <animate attributeType="XML" attributeName="y1" from="280" to="40" dur="2s" />
+                                        </line>
+                                        <circle cx="380" cy="290" r="2" />
+                                        <circle cx="20" cy="290" r="2" />
 
 
-                            <line x1="20" y1="280" x2="380" y2="280">
-                                <animate attributeType="XML" attributeName="x2" from="20" to="380" dur="2s" />
-                            </line>
-                            <circle cx="380" cy="280" r="2" />
-                            <circle cx="20" cy="280" r="2" />
-                            <line x1="20" y1="290" x2="380" y2="290">
-                                <animate attributeType="XML" attributeName="x1" from="380" to="20" dur="2s" />
-                            </line>
-                            <circle cx="380" cy="290" r="2" />
-                            <circle cx="20" cy="290" r="2" />
-                            <line x1="170" y1="290" x2="130" y2="330" />
-                            <line x1="230" y1="290" x2="270" y2="330" />
-                            <circle cx="270" cy="330" r="2" />
-                            <circle cx="130" cy="330" r="2" />
-                        </svg>
-
-                        <video width="320" height="240" controls>
-                            <source src="media/video/Softuni.webm" type="video/webm">
-                        </video>
+                                        <line x1="20" y1="280" x2="380" y2="280">
+                                            <animate attributeType="XML" attributeName="x2" from="20" to="380" dur="2s" />
+                                        </line>
+                                        <circle cx="380" cy="280" r="2" />
+                                        <circle cx="20" cy="280" r="2" />
+                                        <line x1="20" y1="290" x2="380" y2="290">
+                                            <animate attributeType="XML" attributeName="x1" from="380" to="20" dur="2s" />
+                                        </line>
+                                        <circle cx="380" cy="290" r="2" />
+                                        <circle cx="20" cy="290" r="2" />
+                                        <line x1="170" y1="290" x2="130" y2="330" />
+                                        <line x1="230" y1="290" x2="270" y2="330" />
+                                        <circle cx="270" cy="330" r="2" />
+                                        <circle cx="130" cy="330" r="2" />
+                                    </svg>
+                                    <video width="320" height="240" controls autoplay>
+                                        <source src="media/video/Softuni.webm" type="video/webm">
+                                    </video>
+                                </h1>
+                            </div>
+                        </section>
+                        <section>
+                            <span><button type="button" value="FastTrackPage" onclick="window.open('https://softuni.bg/account/authenticate')">КАНДИДАТСТВАЙ</button></span>
+                            <h4><span class="mission">Mисията ни</span> е да направим хората, които <span class="mission">обучаваме</span>, истински професионалисти в софтуерната индустрия и да им <span class="mission">съдействаме</span> в намирането на решения !</h4>
+                        </section>
                     </div>
                 </article>
-               
+
             </div>
         </section>
         <footer>
             <div class="wrapper">
-                <table>
-                    <tr>
-                        <th rowspan="2"><button class="tip" type="button" title="Още не си готов!">Кандидатствай</button></th>
-                        <th class="orange">За университета</th>
-                        <th class="orange">Нашите приятели</th>
-                        <th rowspan="2" class="orange different_column">Software University Learning system - 1.0.5291</th>
-                        <th rowspan="6"></th>
-                    </tr>
-                    <tr>
-                        <td>За нас</td>
-                        <td>Светлин Наков блог</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">
-                            <button type="button" value="FastTrackPage"
-                                    onclick="window.open('fastTrack.html')">
-                                Fast track курсове
-                            </button>
-                        </td>
-                        <td>Професии</td>
-                        <td>C# книга</td>
-                        <td rowspan="2" class="different_column">&copy;2013-2014 - Software University. All Right Reserved</td>
-
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td rowspan="2" class="different_column">
-                            <ul>
-                                <li>
-                                    <a href="https://twitter.com/softunibg" target="_blank" title="Twitter">
-                                        <img src="images/twitter.png" alt="Twitter" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://facebook.com/SoftwareUniversity" target="_blank" title="Facebook">
-                                        <img src="images/facebook.png" alt="Facebook" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://plus.google.com/+SoftuniBg" target="_blank" title="Google+">
-                                        <img src="images/googleplus.png" alt="Google Plus" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                <ul>
+                    <li><button class="tip" type="button" title="Още не си готов!">Кандидатствай</button></li>
+                    <li>
+                        <button type="button" value="FastTrackPage"
+                                onclick="window.open('fastTrack.html')">
+                            Fast track курсове
+                        </button>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="orange">За университета</li>
+                    <li><a href="firstpage.html">За нас</a></li>
+                    <li><a href="https://softuni.bg/professions" target="_blank">Професии</a></li>
+                </ul>
+                <ul>
+                    <li class="orange">Нашите приятели</li>
+                    <li><a href="http://nakov.com" target="_blank">Светлин Наков блог</a></li>
+                    <li><a href="http://www.introprogramming.info/" target="_blank">C# книга</a></li>
+                </ul>
+                <ul>
+                    <li class="orange different_column">Software University Learning system - 1.0.5291</li>
+                    <li class="different_column">&copy;2013-2014 - Software University. All Right Reserved</li>
+                    <li class="different_column">
+                    <li>
+                        <a href="https://twitter.com/softunibg" target="_blank" title="Twitter">
+                            <img src="images/twitter.png" alt="Twitter" />
+                        </a>
+                        <a href="https://facebook.com/SoftwareUniversity" target="_blank" title="Facebook">
+                            <img src="images/facebook.png" alt="Facebook" />
+                        </a>
+                        <a href="https://plus.google.com/+SoftuniBg" target="_blank" title="Google+">
+                            <img src="images/googleplus.png" alt="Google Plus" />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
     </div>

@@ -1,0 +1,87 @@
+﻿section#mainContainer div article.center {
+}
+
+    section#mainContainer div article.center section {
+        display: inline-block;
+        margin: 0.5em 0.8em 1em 0.8em;
+        width: 44%;
+        vertical-align: middle;
+    }
+
+        section#mainContainer div article.center section:first-child {
+            width: 24%;
+        }
+
+        section#mainContainer div article.center section:last-child {
+            width: 20%;
+        }
+
+        section#mainContainer div article.center section h1 {
+            margin: 0.4em;
+            padding: 0.5em 1.5em;
+            line-height: 40px;
+            font-size: 1.7em;
+            letter-spacing: 1.2px;
+            background: rgba(254,157,1, 1);
+            box-shadow: 2px 0px 7px 0px grey;
+        }
+
+        section#mainContainer div article.center section button {
+            position: relative;
+            top: -10px;
+            left: -14px;
+            padding: 1.5em 3.8em;
+            background: transparent;
+            border: 3px solid #fe9d01;
+            border-radius: 2px;
+            font-weight: bold;
+            font-size: 1.1em;
+            text-shadow: 2px 0px 6px #000;
+            color: #eee;
+        }
+
+            section#mainContainer div article.center section button:hover {
+                cursor: pointer;
+                background-color: rgba(180,180,180, 0.3);
+                transition: background-color 1s ease;
+            }
+
+svg line {
+    stroke-width: 5;
+    stroke: #234465;
+    fill: none;
+}
+
+svg circle {
+    stroke: #234465;
+    fill: #ff9c00;
+}
+
+video {
+    position: relative;
+    top: -309px;
+    left: 43px;
+    width: 312px;
+    height: 232px;
+    background-color: black;
+    border: 1px solid #fe9d01;
+    border-radius: 6px;
+}
+
+.video_div {
+    height: 380px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+    .video_div h1 {
+        height: 14em;
+    }
+
+.mission {
+    font-family: Verdana;
+    line-height: normal;
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: -3px;
+}

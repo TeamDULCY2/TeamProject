@@ -17,23 +17,23 @@
                 </h1>
                 <nav id="nav-profile">
                     <ul>
-                        <li>0<a href="#"><img class="bell" src="images/bell-icon.png" alt="bell-icon" /></a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">USER<img src="images/triangle-icon.png" /></a></li>
+                        <li><a href="#" onclick="document.getElementById('click').play();"><img class="bell" src="images/bell-icon.png" alt="bell-icon" /><span><audio id="click" src="media/audio/bells005.mp3" preload="auto"></audio></span></a></li>
+                        <li><a href="https://softuni.bg/account/authenticate" target="_blank">USER</a></li>
                         <li>
                             <form>
-                                <input type="text" placeholder="Search..." name="fieldset" class="fieldset" />
-                                <input type="button" name="search-button" class="button" />
+                                <input type="text" placeholder="Don't search..." name="fieldset" class="fieldset" />
+                                <input type="submit" value="" name="search-button" class="button" />
                             </form>
                         </li>
                     </ul>
                 </nav>
                 <nav id="nav-main">
                     <ul>
+                        <li><a href="firstpage.html">ЗА НАС</a></li>
                         <li><a href="templet.html">НОВИНИ</a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">ЗА УНИВЕРСИТЕТА<img src="images/triangle-icon.png" /></a></li>
-                        <li class="triangle"><a href="https://softuni.bg/#">КУРСОВЕ<img src="images/triangle-icon.png" /></a></li>
-                        <li><a href="comments_page.html" target="_blank">ОТЗИВИ</a></li>
-                        <li><a href="autors.html" target="_blank">АВТОРИ</a></li>
+                        <li><a href="fastTrack.html">FAST TRACK</a></li>
+                        <li><a href="comments_page.html">ОТЗИВИ</a></li>
+                        <li><a href="autors.html">АВТОРИ</a></li>
                         <li><a href="contacts.html">КОНТАКТИ</a></li>
                     </ul>
                 </nav>
@@ -54,66 +54,50 @@
                                 <a href="images/kid.jpg" target="frame">6</a>
                             </nav>
                         </figcaption>
-                        <br/>
+                        <br />
                         <iframe src="images/doge.jpg" name="frame" height="495" width="500"></iframe>
                     </figure>
                 </article>
             </div>
         </section>
         <footer>
-            <table>
-                <tr>
-                    <th rowspan="2"><button class="tip" type="button" title="Още не си готов!">Кандидатствай</button></th>
-                    <th class="orange">За университета</th>
-                    <th class="orange">Нашите приятели</th>
-                    <th rowspan="2" class="orange different_column">Software University Learning system - 1.0.5291</th>
-                    <th rowspan="6"></th>
-                </tr>
-                <tr>
-                    <td>За нас</td>
-                    <td>Светлин Наков блог</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">
+            <div class="wrapper">
+                <ul>
+                    <li><button class="tip" type="button" title="Още не си готов!">Кандидатствай</button></li>
+                    <li>
                         <button type="button" value="FastTrackPage"
                                 onclick="window.open('fastTrack.html')">
                             Fast track курсове
                         </button>
-                    </td>
-                    <td>Професии</td>
-                    <td>C# книга</td>
-                    <td rowspan="2" class="different_column">&copy;2013-2014 - Software University. All Right Reserved.</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td rowspan="2" class="different_column">
-                        <ul>
-                            <li>
-                                <a href="https://twitter.com/softunibg" target="_blank" title="Twitter">
-                                    <img src="images/twitter.png" alt="Twitter" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://facebook.com/SoftwareUniversity" target="_blank" title="Facebook">
-                                    <img src="images/facebook.png" alt="Facebook" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/+SoftuniBg" target="_blank" title="Google+">
-                                    <img src="images/googleplus.png" alt="Google Plus" />
-                                </a>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="orange">За университета</li>
+                    <li><a href="firstpage.html">За нас</a></li>
+                    <li><a href="https://softuni.bg/professions" target="_blank">Професии</a></li>
+                </ul>
+                <ul>
+                    <li class="orange">Нашите приятели</li>
+                    <li><a href="http://nakov.com" target="_blank">Светлин Наков блог</a></li>
+                    <li><a href="http://www.introprogramming.info/" target="_blank">C# книга</a></li>
+                </ul>
+                <ul>
+                    <li class="orange different_column">Software University Learning system - 1.0.5291</li>
+                    <li class="different_column">&copy;2013-2014 - Software University. All Right Reserved</li>
+                    <li class="different_column">
+                    <li>
+                        <a href="https://twitter.com/softunibg" target="_blank" title="Twitter">
+                            <img src="images/twitter.png" alt="Twitter" />
+                        </a>
+                        <a href="https://facebook.com/SoftwareUniversity" target="_blank" title="Facebook">
+                            <img src="images/facebook.png" alt="Facebook" />
+                        </a>
+                        <a href="https://plus.google.com/+SoftuniBg" target="_blank" title="Google+">
+                            <img src="images/googleplus.png" alt="Google Plus" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </div>
 </body>
